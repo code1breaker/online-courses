@@ -7,4 +7,4 @@ ecommerce
 https://www.figma.com/design/2gCKhq43d6UWWhKbxY7OOC/Ecommerce-Website-UI-Template-Design---Dark-Theme-(Community)?node-id=16-22&t=sf3XhFSR2GGR6QEj-0
 
 bank
-https://www.figma.com/design/7MFq3cmFiFWVUwkKcZSYAh/Banking-Company-Website-UI-Template-Design-in-Dark-Theme-(-FREE-Editable-)-(Community)?node-id=67-10&t=oLeFMmccJ9IdOi0O-0
+https://www.figma.com/design/7MFq3cmFiFWVUwkKcZSYAh/Banking-Company-Website-UI-Template-Design-in-Dark-Theme-(-FREE-Editable-)-(Community)?node-id=67-10&t=oLeFMmccJ9IdOi0O-0 
