@@ -18,7 +18,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-.main{
-  @apply mx-4 sm:mx-8 my-5
-}
