@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { useState } from "react";
+import Button from "./Button";
 
 
 const NAVBAR_CONTENT = {
@@ -57,12 +58,8 @@ const Navbar = () => {
         </nav>
 
         <div className="flex justify-center">
-          <button className="rounded-lg px-5 py-3 lg:px-6 2xl:px-8 2xl:py-4 text-sm 2xl:text-lg">
-            Sign Up
-          </button>
-          <button className="rounded-lg px-5 py-3 lg:px-6 2xl:px-8 2xl:py-4 text-sm 2xl:text-lg bg-primary text-white ">
-            Login
-          </button>
+          <Button variant="tertiary">Sign Up</Button>
+          <Button>Login</Button>
           <button onClick={()=>setOpenMenu(!openMenu)} className="lg:hidden !py-0 !pr-0 pl-5">
             <HiOutlineMenuAlt3 className="text-4xl"/>
           </button>
