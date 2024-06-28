@@ -45,12 +45,12 @@ const Navbar = () => {
       <header className="grid grid-cols-[1fr,auto] mx-0 lg:mx-20 xl:mx-32 my-5 items-center relative">
         <nav className="grid grid-cols-[auto,1fr] gap-10 items-center">
           <div className="w-10 h-10 sm:w-11 sm:h-11 2xl:w-14 2xl:h-14">
-            <Image src="/assets/images/logo.png" width={54} height={54} alt="logo" />
+            <Image src="/assets/icons/logo.png" width={54} height={54} alt="logo" />
           </div>
 
           <ul className={`${openMenu ? "absolute top-[50px] right-0 rounded-lg bg-white w-40": "hidden"} lg:flex`}>
             {menuItems?.map((menuItem) => (
-              <li className={`px-5 py-3 rounded-lg text-sm 2xl:text-lg  ${pathname==menuItem?.link ?" bg-[#f1f1f3] ":" hover:bg-[#f1f1f3]"}`}>
+              <li key={menuItem.label} className={`px-5 py-3 rounded-lg text-sm 2xl:text-lg  ${pathname==menuItem?.link ?" bg-[#f1f1f3] ":" hover:bg-[#f1f1f3]"}`}>
                 <Link onClick={()=>setOpenMenu(false)} href={menuItem?.link}>{menuItem?.label}</Link>
               </li>
             ))}
