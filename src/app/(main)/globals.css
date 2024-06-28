@@ -19,4 +19,13 @@ a {
   text-decoration: none;
 }
 
+.loop-scroll{
+  animation: loop-scroll 10s linear infinite;
+}
+
+@keyframes loop-scroll{
+ to{
+  translate: -100%;
+ }
+}
 
