@@ -22,8 +22,8 @@ const HeroSection = () => {
         </p>
 
         <div className="flex gap-4 justify-center mt-12 md:mt-14 ">
-          <Button>Explore Courses </Button>
-          <Button variant={"secondary"}>View Pricing</Button>
+          <Button onClick={()=>{}}>Explore Courses </Button>
+          <Button variant={"secondary"} onClick={()=>{}}>View Pricing</Button>
         </div>
       </div>
   )

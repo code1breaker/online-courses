@@ -7,9 +7,13 @@ import adobe from "../../../public/assets/icons/adobe.svg";
 import notion from "../../../public/assets/icons/notion.svg";
 import netflix from "../../../public/assets/icons/netflix.svg";
 
+type BrandPropType = {
+  key:string,
+  brand:string,
+}
 const brands = [zapier, spotify, zoom, amazon, adobe, notion, netflix];
 
-const Brand = ({ key, brand }) => {
+const Brand = ({ key, brand }:BrandPropType) => {
   return (
     <div
       key={key}
