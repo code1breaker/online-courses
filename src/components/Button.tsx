@@ -1,7 +1,16 @@
+import { ReactNode } from "react"
 
-const Button = ({children,variant="primary",onClick}) => {
+type ButtonPropType = {
+  children: ReactNode,
+  variant?:string,
+  onClick:()=>void
+}
+type stylesType = {
+  [key:string] : string
+}
+const Button = ({children,variant="primary",onClick}:ButtonPropType) => {
 
-    const styles = {
+    const styles:stylesType = {
         primary:"bg-primary text-white",
         secondary:"bg-white",
         tertiary:""

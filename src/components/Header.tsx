@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { HiOutlineMenuAlt3 as MenuIcon } from "react-icons/hi";
 import { useState } from "react";
 import Button from "./Button";
 
@@ -58,10 +58,10 @@ const Navbar = () => {
         </nav>
 
         <div className="flex justify-center">
-          <Button variant="tertiary">Sign Up</Button>
-          <Button>Login</Button>
+          <Button variant="tertiary" onClick={()=>{}}>Sign Up</Button>
+          <Button onClick={()=>{}}>Login</Button>
           <button onClick={()=>setOpenMenu(!openMenu)} className="lg:hidden !py-0 !pr-0 pl-5">
-            <HiOutlineMenuAlt3 className="text-4xl"/>
+            <MenuIcon className="text-4xl"/>
           </button>
         </div>
       </header>
