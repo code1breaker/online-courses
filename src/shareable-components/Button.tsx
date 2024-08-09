@@ -3,7 +3,7 @@ import { ReactNode } from "react"
 
 type ButtonPropType = {
   children: ReactNode,
-  variant?:string,
+  variant?:"primary" | "secondary" | "tertiary",
   onClick:()=>void
 }
 type stylesType = {

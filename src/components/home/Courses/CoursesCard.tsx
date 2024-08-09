@@ -12,7 +12,7 @@ const CoursesCard = ({
 }: CourseCardPropType) => {
   return (
     <div className="bg-white rounded-md p-8 lg:p-10">
-      <div className="w-full h-[10rem] sm:h-[12rem] xl:h-[17rem] relative rounded-md">
+      <div className="w-full h-[12rem] sm:h-[12rem] xl:h-[17rem] relative rounded-md">
         <Image src={img} alt="course" fill className="rounded-md" />
       </div>
       <div className="grid sm:grid-cols-[1fr,auto] max-sm:gap-2 my-4 items-center">
@@ -24,7 +24,7 @@ const CoursesCard = ({
             {level}
           </p>
         </div>
-        <p className="text-base xl:text-xl font-medium">By {instructorName}</p>
+        <p className="text-base xl:text-xl font-semibold">By {instructorName}</p>
       </div>
 
       <h3 className="text-[#333333] text-lg md:text-xl font-semibold my-3 ">
