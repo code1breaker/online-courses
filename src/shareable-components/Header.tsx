@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <>
       <p className="bg-primary text-white text-center py-4 rounded-lg text-sm 2xl:text-lg">{NAVBAR_CONTENT.TITLE}</p>
-      <header className="grid grid-cols-[1fr,auto] mx-0 lg:mx-20 xl:mx-32 my-5 items-center relative">
+      <header className="grid grid-cols-[1fr,auto] wrapper my-5 items-center relative">
         <nav className="grid grid-cols-[auto,1fr] gap-10 items-center">
           <div className="w-10 h-10 sm:w-11 sm:h-11 2xl:w-14 2xl:h-14">
             <Image src="/assets/icons/logo.png" width={54} height={54} alt="logo" />

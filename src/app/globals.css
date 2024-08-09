@@ -19,6 +19,14 @@ a {
   text-decoration: none;
 }
 
+::selection{
+  @apply bg-primary text-white
+}
+
+.wrapper{
+  @apply mx-0 lg:mx-20 xl:mx-32 
+}
+
 .loop-scroll{
   animation: loop-scroll 10s linear infinite;
 }

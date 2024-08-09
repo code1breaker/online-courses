@@ -26,7 +26,7 @@ const Brand = ({ key, brand }:BrandPropType) => {
 
 const BrandSection = () => {
   return (
-    <div className="grid mx-0 lg:mx-20 xl:mx-32 items-center">
+    <div className="wrapper grid items-center">
       <div className="bg-white flex overflow-hidden rounded-md p-2 lg:p-6 2xl:p-7" >
         <div className="loop-scroll flex shrink-0 w-[50rem] md:w-full">
           {brands?.map((brand) => (

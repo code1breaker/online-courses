@@ -1,9 +1,10 @@
+"use client"
 import Image from "next/image"
-import Button from "../Button"
+import Button from "../../shareable-components/Button"
 
 const HeroSection = () => {
   return (
-    <div className="mx-0  my-12 md:my-20 2xl:my-24 text-center flex flex-col items-center bg-red-20">
+    <div className="mx-0 my-12 md:my-20 2xl:my-24 text-center flex flex-col items-center">
         <h1 className="text-base sm:text-3xl lg:text-4xl 2xl:text-5xl font-semibold text-[#1A1A1A] bg-white py-3 px-4 rounded-md flex items-center">
           <Image
             width={62}
