@@ -9,19 +9,17 @@ export interface Feature{
 export interface priceDataType {
   readonly id:number,
   plan:string,
-  price:number,
-  currency:string,
-  billingCycle:string,
+  monthlyPrice:number,
+  yearlyPrice:number,
   features:Feature[],
 }
 
-const monthlyPricingData:priceDataType[] = [
+const pricingData:priceDataType[] = [
   {
     id: 1,
     plan: "Free",
-    price: 0,
-    currency: "USD",
-    billingCycle: "month",
+    monthlyPrice: 0,
+    yearlyPrice:0,
     features: [
       { id:11, feature: "Access to selected free courses.", available: "✓" },
       { id:12, feature: "Limited course materials and resources.", available: "✓" },
@@ -35,9 +33,8 @@ const monthlyPricingData:priceDataType[] = [
   {
     id: 2,
     plan: "Pro",
-    price: 79,
-    currency: "USD",
-    billingCycle: "month",
+    monthlyPrice: 79,
+    yearlyPrice:799,
     features: [
       { id: 21, feature: "Unlimited access to all courses.", available: "✓" },
       { id: 22, feature: "Unlimited course materials and resources.", available: "✓" },
@@ -51,11 +48,11 @@ const monthlyPricingData:priceDataType[] = [
 ];
 
 
-const Price = () => {
+const Price = ({activeTab}:{activeTab:string}) => {
   return (
     <div className="bg-white rounded-md p-5 sm:p-8 lg:p-10 grid xl:grid-cols-2 gap-5">
-      {monthlyPricingData?.map((monthPrice) => (
-        <Pricecard {...monthPrice}/>
+      {pricingData?.map((price) => (
+        <Pricecard activeTab={activeTab} {...price}/>
       ))}
     </div>
   );
