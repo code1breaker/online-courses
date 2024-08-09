@@ -1,4 +1,4 @@
-import SectionDescription from "../../SectionDescription";
+import SectionDescription from "../../../shareable-components/SectionDescription";
 import CoursesCard from "./CoursesCard";
 
 export interface coursesType {

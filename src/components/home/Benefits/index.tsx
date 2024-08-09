@@ -1,4 +1,4 @@
-import SectionDescription from "../../SectionDescription";
+import SectionDescription from "../../../shareable-components/SectionDescription";
 import BenefitCard from "./BenefitCard";
 
 export interface benefitsType {

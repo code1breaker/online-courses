@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import Button from "../Button"
+import Button from "../../shareable-components/Button"
 
 const HeroSection = () => {
   return (

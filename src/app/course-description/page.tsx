@@ -1,5 +1,5 @@
-import PageDescription from "@/components/PageDescription"
-import Video from "@/components/Video"
+import PageDescription from "@/shareable-components/PageDescription"
+import Video from "@/shareable-components/Video"
 
 const HOME_CONTENT = {
   TITLE:"UI/UX Design Course",

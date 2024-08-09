@@ -40,4 +40,3 @@ const CoursesCard = ({
 };
 
 export default CoursesCard;
-// public\assets\images\courses.png
