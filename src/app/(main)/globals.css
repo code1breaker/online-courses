@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+.wrapper{
+  @apply mx-0 lg:mx-20 xl:mx-32 
+}
+
 .loop-scroll{
   animation: loop-scroll 10s linear infinite;
 }

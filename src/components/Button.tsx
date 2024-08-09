@@ -1,3 +1,4 @@
+"use client"
 import { ReactNode } from "react"
 
 type ButtonPropType = {
@@ -17,7 +18,7 @@ const Button = ({children,variant="primary",onClick}:ButtonPropType) => {
     }
 
   return (
-    <button onClick={onClick} className={`${styles[variant]} rounded-lg px-5 py-3 lg:px-6 text-sm 2xl:text-lg`}>
+    <button onClick={onClick} className={`${styles[variant]} rounded-lg px-5 py-3 lg:px-6 text-sm 2xl:text-lg w-fit h-fit`}>
       {children}
     </button>
   )
