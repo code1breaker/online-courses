@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 type ButtonPropType = {
   children: ReactNode;
   variant?: "primary" | "secondary" | "tertiary";
-  onClick: () => void;
+  onClick: (e:React.MouseEvent<HTMLButtonElement>)=>void;
   value?: string
 };
 type stylesType = {

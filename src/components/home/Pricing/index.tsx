@@ -13,9 +13,10 @@ const PRICING_TEXT = {
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState("Monthly");
 
-  const handleTabChange = (e) => {
-    setActiveTab(e.target.value)
+  const handleTabChange = (e:React.MouseEvent<HTMLButtonElement>) =>  {
+      setActiveTab((e.target as HTMLButtonElement).value)
   };
+  
   return (
     <div className="wrapper my-12 md:my-20 2xl:my-24">
       <SectionDescription
