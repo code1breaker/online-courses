@@ -39,7 +39,7 @@ const CourseCard = ({
         <p className="text-[#333333] text-sm md:text-base mb-4 md:mb-8">
           {desc}
         </p>
-        <Button onClick={()=>{}} variant="quatrernary">{button.text}</Button>
+        <Button variant="quatrernary">{button.text}</Button>
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">

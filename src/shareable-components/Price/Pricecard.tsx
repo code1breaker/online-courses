@@ -22,7 +22,7 @@ const Pricecard = ({
         <span className="font-semibold text-[#4C4C4D]">/{activeTab}</span>
       </div>
 
-      <div className="bg-white rounded-md">
+      <div className="bg-white border-2 border-[#F1F1F3] rounded-md">
         <div className="p-5 sm:p-8 flex flex-col items-center">
           <p>Available Features</p>
 

@@ -1,7 +1,7 @@
 import CourseCard from "@/components/course/CourseCard";
 import PageDescription from "@/shareable-components/PageDescription";
 
-const HOME_CONTENT = {
+const COURSE_CONTENT = {
   TITLE: "Online Courses on Design and Development",
   DESCRIPTION:
     "Welcome to our online course page, where you can enhance your skills in design and development. Choose from our carefully curated selection of 10 courses designed to provide you with comprehensive knowledge and practical experience. Explore the courses below and find the perfect fit for your learning journey.",
@@ -52,8 +52,8 @@ const CoursePage = () => {
   return (
     <>
       <PageDescription
-        title={HOME_CONTENT.TITLE}
-        description={HOME_CONTENT.DESCRIPTION}
+        title={COURSE_CONTENT.TITLE}
+        description={COURSE_CONTENT.DESCRIPTION}
       />
 
       <div className="wrapper my-8 md:my-20 2xl:my-24 flex flex-col gap-8">
