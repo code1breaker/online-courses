@@ -18,12 +18,12 @@ const Pricing = () => {
   };
   
   return (
-    <div className="wrapper my-12 md:my-20 2xl:my-24">
+    <div className="wrapper my-8 md:my-20 2xl:my-24">
       <SectionDescription
         title={PRICING_TEXT.TITLE}
         description={PRICING_TEXT.DESCRIPTION}
       >
-        <div className="bg-white p-3 rounded-md w-fit max-sm:mx-auto">
+        <div className="bg-white flex p-3 rounded-md w-fit max-sm:mx-auto">
           <Button variant={activeTab=="Monthly" ? "primary": "tertiary"} onClick={handleTabChange} value="Monthly">
             Monthly
           </Button>

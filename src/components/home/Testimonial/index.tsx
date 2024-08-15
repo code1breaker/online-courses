@@ -1,5 +1,5 @@
 import SectionDescription from '@/shareable-components/SectionDescription'
-import TestimonialCard from './TestimonialCard';
+import TestimonialCard from '../../../shareable-components/TestimonialCard';
 
 export interface testimonialType {
   readonly id: number;
@@ -54,7 +54,7 @@ const Testimonial_TEXT = {
 
 const Testimonial = () => {
   return (
-    <div className="wrapper my-12 md:my-20 2xl:my-24">
+    <div className="wrapper my-8 md:my-20 2xl:my-24">
     <SectionDescription
       title={Testimonial_TEXT.TITLE}
       description={Testimonial_TEXT.DESCRIPTION}
