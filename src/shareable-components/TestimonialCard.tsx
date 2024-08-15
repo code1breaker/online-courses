@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { testimonialType } from "./";
+import { testimonialType } from "../components/home/Testimonial";
 
 interface testimonialCardPropType extends testimonialType {}
 
@@ -9,7 +9,7 @@ const TestimonialCard = ({
   img,
 }: testimonialCardPropType) => {
   return (
-    <div className="bg-white rounded-md ">
+    <div className="bg-white rounded-md">
       <p className="text-[#333333] text-sm md:text-base p-8 lg:p-10">{description}</p>
 
       <div className="bg-[#FCFCFD] border-t-[1px] border-solid grid grid-cols-[1fr,auto] px-8 py-5 rounded-md">

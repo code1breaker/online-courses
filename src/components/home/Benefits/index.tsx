@@ -62,7 +62,7 @@ const benefits: benefitsType[] = [
 
 const Benefits = () => {
   return (
-    <div className="wrapper my-12 md:my-20 2xl:my-24">
+    <div className="wrapper my-8 md:my-20 2xl:my-24">
       <SectionDescription
         title={BENEFITS_TEXT.TITLE}
         description={BENEFITS_TEXT.DESCRIPTION}
